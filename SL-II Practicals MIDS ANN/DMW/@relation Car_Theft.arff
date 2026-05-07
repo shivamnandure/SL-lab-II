@@ -1,0 +1,13 @@
+@relation Car_Theft
+
+@attribute stolen {yes,no}
+@attribute color {red,blue,black,white}
+@attribute type {sports,suv,sedan}
+@attribute origin {domestic,imported}
+
+@data
+yes,red,sports,domestic
+no,blue,suv,imported
+yes,black,sedan,domestic
+no,white,suv,domestic
+yes,red,sports,imported

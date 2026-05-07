@@ -1,0 +1,8 @@
+@relation sales
+@attribute region{North,South,East,West}
+@attribute product{A, B, C}
+@attribute salesmount numeric
+@data
+North,A,100
+South,B,150
+East,C,200
