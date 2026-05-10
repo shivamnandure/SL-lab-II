@@ -1,0 +1,16 @@
+@relation movie_reviewsp7
+
+@attribute review string
+@attribute sentiment {Positive,Negative}
+
+@data
+'Movie was excellent and acting was superb',Positive
+'Very boring movie and poor story',Negative
+'Amazing direction and fantastic music',Positive
+'Waste of time and horrible acting',Negative
+'Excellent screenplay and wonderful performance',Positive
+'Bad editing and weak storyline',Negative
+'Superb cinematography and nice songs',Positive
+'Terrible movie and disappointing ending',Negative
+'Brilliant acting and very emotional film',Positive
+'Worst movie ever watched',Negative

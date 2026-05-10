@@ -1,0 +1,23 @@
+@relation sales_olap
+
+@attribute Region {North,South,East,West}
+@attribute Product {Laptop,Mobile,Tablet}
+@attribute Month {Jan,Feb,Mar}
+@attribute Sales numeric
+
+@data
+North,Laptop,Jan,50000
+North,Mobile,Jan,30000
+South,Laptop,Jan,45000
+East,Tablet,Jan,20000
+West,Mobile,Jan,35000
+North,Laptop,Feb,55000
+South,Mobile,Feb,32000
+East,Laptop,Feb,40000
+West,Tablet,Feb,25000
+North,Mobile,Mar,38000
+South,Tablet,Mar,22000
+East,Mobile,Mar,36000
+West,Laptop,Mar,48000
+North,Tablet,Mar,27000
+South,Laptop,Feb,47000

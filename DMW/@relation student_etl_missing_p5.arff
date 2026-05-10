@@ -1,0 +1,20 @@
+@relation student_etl_missing
+
+@attribute Student_ID numeric
+@attribute Name string
+@attribute Department {CS,IT,EXTC,MECH}
+@attribute Attendance numeric
+@attribute Marks numeric
+@attribute Result {Pass,Fail}
+
+@data
+101,'Amit',CS,85,78,Pass
+102,'Neha',IT,90,88,Pass
+103,'Rahul',EXTC,?,45,Fail
+104,'Sneha',CS,72,?,Pass
+105,'Karan',MECH,55,40,Fail
+106,'Pooja',IT,95,92,Pass
+107,'Rohan',?,60,50,Pass
+108,'Anjali',EXTC,45,35,?
+109,'Vikas',MECH,?,66,Pass
+110,'Priya',IT,88,81,Pass
